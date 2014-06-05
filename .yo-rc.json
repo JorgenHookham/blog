@@ -1,0 +1,18 @@
+{
+  "generator-assemble": {
+    "projectName": "blog",
+    "projectDesc": "Technical and design writing.",
+    "authorLogin": "JorgenHookham",
+    "installPlugin": true,
+    "author": {
+      "name": "jorgen",
+      "login": "assemble",
+      "email": "jorgen@hookham.co"
+    },
+    "plugins": [
+      "assemble-contrib-anchors",
+      "assemble-contrib-permalinks",
+      "assemble-contrib-sitemap"
+    ]
+  }
+}
