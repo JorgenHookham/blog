@@ -1,23 +1,23 @@
 {
-  "name": "blog",
-  "description": "Front-end writing.",
+  "name": "jorgenhookham.github.io",
+  "description": "Front-end technical and design writing.",
   "version": "0.1.0",
-  "homepage": "https://github.com/JorgenHookham/blog",
+  "homepage": "https://github.com/jorgenhookham/jorgenhookham.github.io",
   "author": {
-    "name": "orgen",
-    "url": "https://github.com/JorgenHookham"
+    "name": "jorgen",
+    "url": "https://github.com/jorgenhookham"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JorgenHookham/blog.git"
+    "url": "https://github.com/jorgenhookham/jorgenhookham.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/JorgenHookham/blog/issues"
+    "url": "https://github.com/jorgenhookham/jorgenhookham.github.io/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/JorgenHookham/blog/blob/master/LICENSE-MIT"
+      "url": "https://github.com/jorgenhookham/jorgenhookham.github.io/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",

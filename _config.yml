@@ -64,7 +64,7 @@ license:
 url:
   repo:           <%= pkg.homepage %>
   bugs:           <%= pkg.bugs.url %>?state=open
-  ghpages:        https://<%= site.username %>.github.io/<%= pkg.name %>/
+  ghpages:        https://<%= site.username %>.github.io/
 
   # Site
   domain:         http://jorgen.co/
@@ -75,7 +75,7 @@ url:
 # SEO/SEM
 ga:
   id:             false
-  domain:         assemble.github.io
+  domain:         jorgen.co
   siteid:         false
   # Google Tags (see: https://www.google.com/tagmanager/)
   tags:           false

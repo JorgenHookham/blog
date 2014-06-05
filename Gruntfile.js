@@ -1,8 +1,8 @@
 /*
- * blog
+ * jorgenhookham.github.io
  *
- * Jorgen
- * https://github.com/JorgenHookham/blog
+ * jorgen
+ * https://github.com/jorgenhookham/jorgenhookham.github.io
  *
  * Copyright (c) 2014
  * Licensed under the MIT license.
@@ -23,7 +23,7 @@ module.exports = function(grunt) {
 
     // Before generating any new files, remove files from previous build.
     clean: {
-      build: ['<%= site.dest %>/*.html']
+      example: ['<%= site.dest %>/*.html']
     },
 
 
@@ -58,7 +58,7 @@ module.exports = function(grunt) {
         helpers: '<%= site.helpers %>',
         plugins: '<%= site.plugins %>'
       },
-      build: {
+      example: {
         files: {'<%= site.dest %>/': ['<%= site.templates %>/*.hbs']}
       }
     },
@@ -84,6 +84,7 @@ module.exports = function(grunt) {
 
     // Copy Bootstrap's assets to site assets
     copy: {
+      // Keep this target as a getting started point
       assets: {
         files: [
           {expand: true, cwd: '<%= bootstrap %>/dist/fonts', src: ['*.*'], dest: '<%= site.assets %>/fonts/'},
@@ -120,5 +121,6 @@ module.exports = function(grunt) {
 
   grunt.registerTask('docs', ['readme', 'sync']);
 
+  // Use this going forward.
   grunt.registerTask('default', ['clean', 'jshint', 'copy:assets', 'assemble', 'less', 'docs']);
 };
